@@ -19,6 +19,36 @@
 		6: "VPhysics"
 		]
 
+	collisiongroup(choices) : "Collision Group" : 0 : "The collision group for this entity. This defines how VPhysics sees this entity, which will in turn change what other entities it will collide with. See developer.valvesoftware.com/wiki/Collision_groups for descriptions of each type." = 
+		[
+		0: "Default"
+		1: "Debris"
+		2: "Debris Trigger"
+		3: "Interactive Debris"
+		4: "Interactive"
+		5: "Player"
+		6: "Breakable Glass"
+		7: "Vehicle"
+		8: "Player Movement"
+		9: "NPC"
+		10: "In Vehicle"
+		11: "Weapon"
+		12: "Vehicle Clip"
+		13: "Projectile"
+		14: "Door Blocker"
+		15: "Passable Door"
+		16: "Dissolving"
+		17: "Push Away"
+		18: "NPC Actor"
+		19: "NPC Scripted"
+		20: "PZ Clip"
+		21: "Camera Blocker"
+		22: "Placement Blocker"
+		23: "Held Object"
+		24: "Weighted Cube"
+		25: "Projectile Debris (Broken)"
+		]
+
 	modelscale(float) : "Model Scale" : : "A multiplier for the size of the model. Negative values are accepted. Does not alter the physics collisions in most cases, however. Negative values can crash the game!"
 
 	body(integer) : "Bodygroup" : 0 : "Sets the body group index for the model, starting with 0, if available."
